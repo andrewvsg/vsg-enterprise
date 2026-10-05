@@ -33,8 +33,6 @@ button, a { font:inherit; }
 .text-link { display:inline-block; margin-top:34px; padding-bottom:6px; color:var(--signal); border-bottom:1px solid var(--signal); font-size:13px; font-weight:700; text-transform:uppercase; letter-spacing:.08em; }
 .text-link b { display:inline-block; margin-left:8px; transition:transform .2s ease; }
 .text-link:hover b { transform:translateX(4px); }
-.hero-index { position:absolute; right:0; bottom:30px; display:flex; align-items:center; gap:14px; color:var(--muted); font-size:10px; letter-spacing:.15em; }
-.hero-index span:first-child { color:var(--signal); font-size:24px; letter-spacing:0; }
 .platform-section, .game-section { padding:114px 0; border-bottom:1px solid var(--line); }
 .section-heading { max-width:1020px; }
 .section-heading h2 { max-width:900px; margin-bottom:0; font-size:clamp(2.45rem,5.5vw,5.6rem); }
