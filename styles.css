@@ -39,7 +39,8 @@ button, a { font:inherit; }
 .platform-grid { display:grid; grid-template-columns:repeat(4,1fr); margin-top:62px; border-top:1px solid var(--line); border-left:1px solid var(--line); }
 .platform-link { position:relative; display:flex; flex-direction:column; justify-content:space-between; min-height:170px; padding:20px; border-right:1px solid var(--line); border-bottom:1px solid var(--line); color:var(--paper); font-size:17px; transition:background .24s ease,color .24s ease; }
 .platform-link:hover, .platform-link:focus-visible { background:var(--signal); color:var(--signal-dark); outline:none; }
-.platform-mark, .store-icon { display:grid; place-items:center; width:35px; height:35px; border:1px solid currentColor; font-size:10px; font-weight:700; letter-spacing:.04em; }
+.platform-icon, .store-icon { display:block; width:42px; height:42px; object-fit:contain; }
+.store-icon { width:28px; height:28px; flex:0 0 28px; }
 .external { position:absolute; top:23px; right:20px; color:var(--signal); }
 .platform-link:hover .external { color:var(--signal-dark); transform:translate(3px,-3px); }
 .game-heading h2 { max-width:1050px; }
