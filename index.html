@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#090a0b" />
+    <meta name="description" content="VSG Enterprise - independent game studio portfolio." />
+    <title>VSG Enterprise | Game Studio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="language-gate" id="language-gate" aria-label="Language selection">
+      <div class="gate-grid" aria-hidden="true"></div>
+      <div class="gate-content">
+        <p class="signal">VSG // ENTERPRISE</p>
+        <h1 data-i18n="select">Выберите язык</h1>
+        <p data-i18n="selectHint">Портфолио игровой студии</p>
+        <div class="language-actions">
+          <button type="button" data-language="ru">RU</button>
+          <button type="button" data-language="en">EN</button>
+        </div>
+      </div>
+    </div>
+
+    <main class="site-shell">
+      <header class="site-header">
+        <a class="brand" href="#top" aria-label="VSG Enterprise home">
+          <span class="brand-mark">VSG</span><span>Enterprise</span>
+        </a>
+        <nav aria-label="Primary navigation">
+          <a href="#game" data-i18n="navGame">Игра</a>
+          <a href="#platforms" data-i18n="navPlatforms">Площадки</a>
+        </nav>
+        <div class="language-switch" aria-label="Language">
+          <button type="button" data-language="ru">RU</button><span>/</span><button type="button" data-language="en">EN</button>
+        </div>
+      </header>
+
+      <section class="hero" id="top">
+        <div class="hero-lines" aria-hidden="true"></div>
+        <div class="hero-copy">
+          <p class="signal" data-i18n="studio">Независимая игровая студия</p>
+          <h1 data-i18n="heroTitle">Игры с напряжением в каждом коридоре.</h1>
+          <p class="hero-text" data-i18n="heroText">VSG Enterprise создаёт атмосферные игровые миры, в которых хочется задержаться чуть дольше.</p>
+          <a class="text-link" href="#game"><span data-i18n="explore">Смотреть игру</span> <b aria-hidden="true">-&gt;</b></a>
+        </div>
+        <div class="hero-index" aria-hidden="true"><span>01</span><span>GAMES / INTERACTIVE</span></div>
+      </section>
+
+      <section class="platform-section" id="platforms">
+        <div class="section-heading">
+          <p class="signal" data-i18n="platforms">Площадки</p>
+          <h2 data-i18n="platformsLead">Наши игры доступны там, где вы привыкли играть.</h2>
+        </div>
+        <div class="platform-grid">
+          <a class="platform-link" href="https://yandex.ru/games/developer/50852" target="_blank" rel="noreferrer"><span class="platform-mark" aria-hidden="true">YA</span><span>Yandex Games</span><span class="external" aria-hidden="true">-&gt;</span></a>
+          <a class="platform-link" href="https://playhop.com/ru/developer/50852" target="_blank" rel="noreferrer"><span class="platform-mark" aria-hidden="true">PH</span><span>PlayHop</span><span class="external" aria-hidden="true">-&gt;</span></a>
+          <a class="platform-link" href="https://playgama.com/developer/5964" target="_blank" rel="noreferrer"><span class="platform-mark" aria-hidden="true">PG</span><span>PlayGama</span><span class="external" aria-hidden="true">-&gt;</span></a>
+          <a class="platform-link" href="https://www.rustore.ru/catalog/developer/1oekn4" target="_blank" rel="noreferrer"><span class="platform-mark" aria-hidden="true">RS</span><span>RuStore</span><span class="external" aria-hidden="true">-&gt;</span></a>
+        </div>
+      </section>
+
+      <section class="game-section" id="game">
+        <div class="section-heading game-heading">
+          <p class="signal" data-i18n="gameLabel">Недавняя игра</p>
+          <h2 data-i18n="gameTitle">Покинь Закулисье: Уровень 0</h2>
+          <p class="game-tag" data-i18n="gameTag">Хоррор · Выживание · Головоломки</p>
+        </div>
+        <div class="game-layout">
+          <div class="game-image-wrap">
+            <img src="assets/backrooms-level-0.png" alt="An empty yellow maze of rooms in Backrooms: Exit Protocol 0" />
+            <span class="image-code" aria-hidden="true">LEVEL_0 / READY</span>
+          </div>
+          <div class="game-details">
+            <p data-i18n="gameText">Ты оказался в Закулисье - бесконечном лабиринте жёлтых комнат, из которого не так просто выбраться. Здесь нет людей, а за каждым поворотом может скрываться опасный монстр.</p>
+            <p data-i18n="gameText2">Найди ключ-карту, восстанови электропитание и открой выход. Исследуй комнаты, собирай предметы, открывай двери и решай головоломки. Прячься, слушай и не попадайся сущности на глаза: у тебя всего 5 жизней.</p>
+            <div class="game-actions">
+              <a class="store-link primary" href="https://play.google.com/store/apps/details?id=com.VSGEnterprise.BackroomsProtocol0" target="_blank" rel="noreferrer"><span class="store-icon" aria-hidden="true">GP</span><span data-i18n="googlePlayAction">Играть в Google Play</span></a>
+              <a class="store-link" href="https://playgama.com/game/backrooms-exit-protocol-0" target="_blank" rel="noreferrer"><span class="store-icon" aria-hidden="true">PG</span><span data-i18n="playGamaAction">Играть в PlayGama</span></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer><span data-i18n="footer">VSG Enterprise. Игры с характером.</span><span>VSG // 2026</span></footer>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
