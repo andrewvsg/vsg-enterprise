@@ -35,7 +35,7 @@
       length: 10 + Math.floor(noise(column + 1) * 14),
       speed: 18 + noise(column + 13) * 20,
       phase: noise(column + 31),
-      brightness: .1 + noise(column + 53) * .1,
+      brightness: .16 + noise(column + 53) * .14,
     })).filter((_, column) => noise(column + 71) > .26);
     draw();
   }
